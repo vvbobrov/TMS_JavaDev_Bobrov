@@ -7,6 +7,7 @@ public class Main {
 
         // Hello World output
         System.out.println("Hello World!!!");
+        System.out.println("Hello World!!!");
 
         // Rating the temperature by its value
         System.out.print("Enter the outdoor temperature: ");
