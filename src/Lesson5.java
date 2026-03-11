@@ -17,7 +17,7 @@ public class Lesson5 {
             for (int y=0; y<5; y++) {
                 System.out.print(charsTable[x][y]+" ");
             }
-            System.out.println("\n");
+            System.out.print("\n");
         }
     }
 }
