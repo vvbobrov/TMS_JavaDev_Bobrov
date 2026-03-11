@@ -4,6 +4,13 @@ public class Lesson5 {
 
         char[][] charsTable = new char[5][5];
 
+        char charForTable = 'a';
 
+        for (int x=0; x<5; x++) {
+            for (int y=0; y<5; y++) {
+                charsTable[x][y] = charForTable;
+                charForTable++;
+            }
+        }
     }
 }
