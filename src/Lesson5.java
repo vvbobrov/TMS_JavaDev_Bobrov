@@ -25,5 +25,12 @@ public class Lesson5 {
         System.out.println("\n");
 
         System.out.println(Arrays.deepToString(charsTable));
+
+        char[][] extendedCharsTable = Arrays.copyOf(charsTable, 10);
+        System.out.println(Arrays.deepToString(extendedCharsTable));
+        /*for (int i=0; i<extendedCharsTable.length; i++) {
+            System.out.print(extendedCharsTable[i]+" ");
+        }*/
+        System.out.println("\n");
     }
 }
