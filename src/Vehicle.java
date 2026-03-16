@@ -6,4 +6,8 @@ public class Vehicle {
         int engineHorsePower;
         String color;
         String owner;
+
+        Vehicle(String vehiclesNumber) {
+                this.vehiclesNumber = vehiclesNumber;
+        }
 }
